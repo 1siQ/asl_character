@@ -1,5 +1,5 @@
 # Model ağırlıkları (git-lfs ile veya ayrı paylaşılır)
-*.pt
+# *.pt  # model repoya dahil
 *.pth
 *.onnx
 *.engine
