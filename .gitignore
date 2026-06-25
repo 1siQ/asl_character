@@ -1,0 +1,31 @@
+# Model ağırlıkları (git-lfs ile veya ayrı paylaşılır)
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Dataset
+asl_alphabet_train/
+dataset_clean/
+
+# YOLO eğitim çıktıları (training_results/ içindekiler repodan, runs/ dışarıda)
+runs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Sanal ortam
+venv/
+.venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.egg-info/
+dist/
+build/
